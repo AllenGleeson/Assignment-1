@@ -1,0 +1,72 @@
+:root{
+    --main-theme-color-one: #582222;
+    --main-theme-color-two: #c5c5c5;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.img-container{
+    background-image: url("assignment.assets/holiday.jpg");
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.img-container span{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: #ffe3718f;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.img-container span img{
+    height: 80px;
+}
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px 0px; 
+    height: 100vh;
+}
+
+.welcome_area {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1.5fr 2fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "."
+    "."
+    ".";
+    justify-content: center; 
+    align-content: center; 
+}
+
+.welcome_message{
+    background-color: var(--main-theme-color-two, #c5c5c5);
+    color: var(--main-theme-color-one, #582222);
+    height: 100%;
+    margin: 0px;
+}
+
+.signup_form{
+    background-color: var(--main-theme-color-one, #582222);
+    color: var(--main-theme-color-two, #c5c5c5);
+    height: 100%;
+    margin: 0px;
+    align-content: center;
+}
+.create_sign-in{
+    background-color: var(--main-theme-color-two, #c5c5c5);
+    color: var(--main-theme-color-one, #582222);
+    height: 100%;
+    margin: 0px;
+    align-content: center;
+}
